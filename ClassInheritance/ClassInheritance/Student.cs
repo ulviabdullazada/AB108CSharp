@@ -29,5 +29,9 @@ namespace ClassInheritance
             }
             return sum / Grades.Length;
         }
+        public void Test()
+        {
+            base.PrintInfo();
+        }
     }
 }

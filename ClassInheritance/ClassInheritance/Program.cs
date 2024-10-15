@@ -50,18 +50,18 @@
             //fidan.PrintInfo();
             #endregion
             #region Inheritance
-            University uni = new University
-            {
-                Name = "AzTU",
-                BuiltDate = new DateOnly(1957, 7, 1)
-            };      
-            University bdu = new University
-            {
-                Name = "Baku State University"
-            };
-            Student musa = new Student("Musa", "Abdullayev", 19, "A001", uni); //instance
-            Student ali = new Student("Ali", "Jafarzada", 19, "A002", uni);
-            Console.WriteLine(ali.University.BuiltDate);
+            //University uni = new University
+            //{
+            //    Name = "AzTU",
+            //    BuiltDate = new DateOnly(1957, 7, 1)
+            //};      
+            //University bdu = new University
+            //{
+            //    Name = "Baku State University"
+            //};
+            //Student musa = new Student("Musa", "Abdullayev", 19, "A001", uni); //instance
+            //Student ali = new Student("Ali", "Jafarzada", 19, "A002", uni);
+            //Console.WriteLine(ali.University.BuiltDate);
             //musa.Grades[0] = 55;
             //musa.Grades[1] = 66.3f;
             //musa.Grades[2] = 67;
@@ -76,6 +76,8 @@
             //Console.WriteLine(musa.ToString());
             //musa.PrintInfo();
             #endregion
+            Student s = new("qweqwe","qweqwe",0,"123",new University());
+            s.Test();
         }
     }
 }
