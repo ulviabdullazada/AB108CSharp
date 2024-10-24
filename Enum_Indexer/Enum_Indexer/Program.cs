@@ -10,6 +10,7 @@
             //    Console.WriteLine(item);
             //}
             #endregion
+            #region Indexer
             //new Object
             //{
 
@@ -54,13 +55,27 @@
             //};
 
             //Console.WriteLine(ab108["elmin"]);
-            
+
             //for (int i = 0; i < 5; i++)
             //{
             //    Console.WriteLine(ab108[i]);
             //}
-            Elmin e = new Elmin();
-            Console.WriteLine(e[4]);
+            //Elmin e = new Elmin();
+            //Console.WriteLine(e[4]);
+            #endregion
+            //int? num = null;
+            Ruslan(null);
+            Ruslan(2);
+            Console.Read();
+        }
+        static void Ruslan(int? num)
+        {
+            if (num == null)
+            {
+                Console.WriteLine("Yeke kiwisen duz emelli shey gonder");
+            }
+            Console.WriteLine(num);
+
         }
     }
 }
