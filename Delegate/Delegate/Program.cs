@@ -37,42 +37,45 @@
             //};
             //yazilar();
             #endregion
-            List<Student> students = [
-            new Student {
-                Name = "Ravan",
-                Surname = "Bayramov",
-                Age = 19
-            },
-            new Student {
-                Name = "Elmin",
-                Surname = "Alizada",
-                Age = 18
-            },
-            new Student {
-                Name = "Ali",
-                Surname = "Jafarzada",
-                Age = 21
-            },
-            new Student {
-                Name = "Musa",
-                Surname = "Abdullayev",
-                Age = 10
-            },
-            new Student {
-                Name = "Huseyn",
-                Surname = "Eyvazli",
-                Age = 39
-            },
-            new Student {
-                Name = "Farid",
-                Surname = "Najafov",
-                Age = 22
-            }];
+            #region Func, Action, Predicate
+            //List<Student> students = [
+            //new Student {
+            //    Name = "Ravan",
+            //    Surname = "Bayramov",
+            //    Age = 19
+            //},
+            //new Student {
+            //    Name = "Elmin",
+            //    Surname = "Alizada",
+            //    Age = 18
+            //},
+            //new Student {
+            //    Name = "Ali",
+            //    Surname = "Jafarzada",
+            //    Age = 21
+            //},
+            //new Student {
+            //    Name = "Musa",
+            //    Surname = "Abdullayev",
+            //    Age = 10
+            //},
+            //new Student {
+            //    Name = "Huseyn",
+            //    Surname = "Eyvazli",
+            //    Age = 39
+            //},
+            //new Student {
+            //    Name = "Farid",
+            //    Surname = "Najafov",
+            //    Age = 22
+            //}];
             //students.FindAll(x => x.Age > 18).ForEach(x =>
             //{
             //    Console.WriteLine(x.Name + ", " + x.Age);
             //});
-            Console.WriteLine(students.TrueForAll(x=> x.Age > 9));
+            //Console.WriteLine(students.TrueForAll(x=> x.Age > 9));
+            #endregion
+
         }
         static void PrintSalam()
         {
