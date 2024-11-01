@@ -104,11 +104,11 @@ namespace Asynchronous
             //});
 
             //TestAsync().Wait();
-            Stopwatch sw = new Stopwatch();
-            sw.Start();
-            SeherYemeyiAsync().Wait();
-            sw.Stop();
-            Console.WriteLine(sw.Elapsed);
+            //Stopwatch sw = new Stopwatch();
+            //sw.Start();
+            //SeherYemeyiAsync().Wait();
+            //sw.Stop();
+            //Console.WriteLine(sw.Elapsed);
             #endregion
         }
 
